@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Welcome to Wiki Golf</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="main.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- ==== Navigation Bar ================================================================================  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <!-- Navbar Toggle Icon -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Brand & Logo -->
+        <a class="navbar-brand d-inline-flex align-items-center" href="index.html">
+          <img src="golf-ball-logo.png" height="50" width="50" alt="Wiki Golf Logo">
+          Wiki Golf
+        </a>
+        <!-- Navbar Menu Items -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav nav-pills nav-fill w-100">
+            <!-- ITEM #1 -->
+            <li class="nav-item align-items-center justify-content-evenly">
+              <a class="nav-link active" aria-current="page" href="index.html">
+              <img src="tee-marker-red.png" class="nav-icon" height="20" width="20" alt="Red Tee Marker">
+              Home
+              <img src="tee-marker-red.png" class="nav-icon" height="20" width="20" alt="Red Tee Marker">
+              </a>
+            </li>
+            <!-- ITEM #2 -->
+            <li class="nav-item align-items-center justify-content-evenly">
+              <a class="nav-link active" href="rules.html">
+              <img src="tee-marker-yellow.png" class="nav-icon" height="20" width="20" alt="Yellow Tee Marker">
+              Rules
+              <img src="tee-marker-yellow.png" class="nav-icon" height="20" width="20" alt="Yellow Tee Marker">
+              </a>          
+            </li>
+            <!-- ITEM #3 -->
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="tee-marker-white.png" class="nav-icon" height="20" width="20" alt="White Tee Marker">
+              Games
+              <img src="tee-marker-white.png" class="nav-icon" height="20" width="20" alt="White Tee Marker">
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">9 Holes</a></li>
+                <li><a class="dropdown-item" href="#">18 Holes</a></li>
+                <li><a class="dropdown-item" href="#">Pitch n Putt</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="range.html">Driving Range</a></li>
+              </ul>
+            </li>
+            <!-- ITEM #4 -->
+            <li class="nav-item align-items-center justify-content-evenly">
+              <a class="nav-link active" href="about.html">
+              <img src="tee-marker-blue.png" class="nav-icon" height="20" width="20" alt="Blue Tee Marker">
+              About
+              <img src="tee-marker-blue.png" class="nav-icon" height="20" width="20" alt="Blue Tee Marker">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- === End of Navigation Bar ========================================================================== -->
+    <!-- === Start of Header Section ======================================================================== -->
+    <header>
+      <div class="header">
+          <h1 class="title">Wiki Golf</h1>
+      </div>
+    </header>
+    <!-- === End of Header Section ========================================================================== -->
+    <!-- === Start of Main Section ========================================================================== -->
+    <main>
+      <div class="section-one">
+              <h2 class="heading">Introduction</h2>
+              <div class="paragraphs">
+                  <p>Wiki Golf origins date back to when bordem struck the internet.</p>
+                  <p>The intent of the game is to broaden your knowledge whilst efficiently navigating the Internet's encyclopedia.</p>
+                  <p>Find out a little more <a href="about.html">about</a> the game of Wiki Golf.</p>
+              </div>
+      </div>
+      <div>
+              <h2 class="heading"><a href="rules.html">Rules of the Game</a></h2>
+              <div class="section-rules">
+                  <ol>
+                      <li>Only the links in the body of an article maybe used.</li>
+                      <li>You cannot navigate back to a previous page. For this, a penalty stroke will be awarded in addition to the stroke for navigating backwards.</li>
+                      <li>Using <i>Ctrl + F</i> is not in the spirit of the game.</li>
+                      <li>Honesty is the best policy, remember, you're only cheating yourself.</li>
+                  </ol>
+              </div>
+      </div>
+      <div>
+        <h2 class="heading">Game Formats</h2>
+          <div class="paragraphs">
+            <h3>9 Hole Format</h3>
+              <p>A short form of the offical game, good to practice with and kill time on the crapper.</p>
+            <br>
+            <h3>18 Hole Format</h3>
+              <p>Official tournament lengths are 18 holes. Courses are challenging and scores contribute to your handicap.</p>
+            <br>
+            <h3>Pitch 'n' Putt Format</h3>
+              <p>This is the easiest format of the game. Topics are similar and take players on a journey of discovery.</p>
+            <br>
+            <h3><a href="range.html">Driving Range</a></h3>
+              <p>Pick two topics, start at one and get to the other in a few clicks as possible.</p>
+          </div>
+      </div>
+    </main>
+    <!-- === Start of Footer Section ========================================================================= -->
+    <footer>
+      <div class="container-fluid footing">
+        <div class="card-group">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-title">Links</h5>
+              <ul class="card-text">
+                <li><a href="rules.html">Rules</a></li>
+                <li>Games</li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-title">Information</h5>
+              <ul>
+                <li><a href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+                <li><a href="https://www.urbandictionary.com/define.php?term=Wiki%20Golf" target="_blank" rel="noopener noreferrer">Urban Dictionary</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Glossary_of_golf" target="_blank" rel="noopener noreferrer">Golf Terminology</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-title">Support</h5>
+              <ul>
+                <li><a href="mailto: toby.cameron1@gmail.com" target="_blank" rel="noopener noreferrer">E-mail</a></li>
+                <li><a href="tel: 131114">Phone</a></li>
+                <li><a href="https://www.ruok.org.au/" target="_blank" rel="noopener noreferrer"><img src="ruok.png" height="12px" width="75px" alt="RUOK? Logo"></a></li>
+                <li><a href="https://www.instagram.com/the7engine/?hl=en" target="_blank" rel="noopener noreferrer" class="insta"><img src="instagram.png" height="15px" width="15px" alt="Instagram Icon"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <div class="container-fluid text-center">
+        <p>&copy; Copyright 2021 Toby Cameron</p>
+      </div>
+      </div>
+    </footer>
+    <!-- === End of Footer Section ========================================================================== -->
+  </body>
+</html>

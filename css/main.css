@@ -1,0 +1,168 @@
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+.navbar-brand   {
+    font-family: 'Crimson Text', serif;
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px;
+    padding-right: 15px;
+    margin-left: 10px;
+}
+
+.navbar-brand > img {
+    margin-right: 15px;
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+    justify-content: flex-start!important;
+}
+
+.navbar {
+    background-image: url("grass-lined.jpg");
+    box-shadow: 0px 5px 10px #055c22;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    text-shadow: 2px 2px 5px black;
+    font-size: 25px;
+}
+
+.navbar .nav-link   {
+    background-color: transparent!important;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: rgba(45, 175, 84, 0.75)!important;
+}
+
+.nav-pills .nav-link {
+    border-radius: .75rem;
+}
+
+.dropdown .dropdown-menu  {
+    color: white;
+    background-color: rgba(27, 155, 91, 0.9);
+}
+
+.dropdown-item  {
+    color: white;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover   {
+    background-color: rgba(250, 230, 166, 0.9);
+    color: cyan;
+}
+
+body    {
+    background-image: url('grass.jpg');
+    background-repeat: round;
+}
+
+/* ====== ^ Confirmed ^ ======= */
+
+h1  {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px black;
+}
+
+h3  {
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+}
+
+h6  {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.heading    {
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    margin: 25px;
+}
+
+a  {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #57C3FF;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-bottom: 0;
+}
+
+.paragraphs   {
+    background-color: rgba(54, 170, 247, 0.5);
+    border-left-style: solid;
+    border-color: blue;
+    border-width: 15px;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+ul  {
+    color: white;
+    list-style-type: none;
+}
+
+.section-rules  {
+    background-color: rgba(54, 170, 247, 0.5);
+    border-left-style: solid;
+    border-color: blue;
+    border-width: 15px;
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+    margin: 20px;
+}
+
+.footing    {
+    margin-top: 25px;
+    color: white;
+    background-image: linear-gradient(#201201, #2e1a01, #452807);
+    box-shadow: 0px -7px 3px #3a1f01;
+}
+
+.card-body > ul > li  {
+    font-size: 15px;
+    line-height: 2;
+}
+
+.card   {
+    background-color: transparent;
+    border-style: none;
+}
+
+.card-body  {
+    padding-top: 7px;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+}
+
+.range-frame    {
+    padding-left: 25px;
+    padding-right: 25px;
+}
