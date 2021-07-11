@@ -10,7 +10,7 @@ const topics = [
 ];
 var x = Math.floor(Math.random() * topics.length);
 
-console.log(topics[x].title);
 window.onload = function(){
-document.getElementById('target').innerHTML = topics[x].title + ' @ ' + topics[x].url;
+    document.getElementById('nameTarget').innerHTML = topics[x].title;
+    document.getElementById('urlTarget').innerHTML = topics[x].url;
 }
