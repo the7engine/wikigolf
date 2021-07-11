@@ -174,3 +174,26 @@ ul  {
     padding-right: 25px;
     color: cyan;
 }
+
+table, th, td {
+    border: 1px solid rgb(6, 5, 105);
+    text-align: center;
+    margin-top: 15px;
+}
+
+th  {
+    background-color: cyan;
+}
+
+tr:nth-child(even)  {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd)   {
+    background-color: #faf9c0;
+}
+
+.table-caption  {
+    color: white;
+    text-align: right;
+}

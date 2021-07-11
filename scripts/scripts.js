@@ -8,9 +8,10 @@ const topics = [
     {title:"The Rumble in the Jungle", url:"https://en.wikipedia.org/wiki/The_Rumble_in_the_Jungle"},
     {title:"Thriller (Album)", url:"https://en.wikipedia.org/wiki/Thriller_(album)"}
 ];
+
 var x = Math.floor(Math.random() * topics.length);
 
 window.onload = function(){
     document.getElementById('nameTarget').innerHTML = topics[x].title;
     document.getElementById('urlTarget').innerHTML = topics[x].url;
-}
+};
